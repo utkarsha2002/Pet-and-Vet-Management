@@ -56,7 +56,7 @@ public class FirstSigninActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selected = spinner.getSelectedItem().toString();
                 Log.e(TAG, "onItemSelected:" + selected);
-                if (selected.equals("Doctor")) {
+                if (selected.equals("Vets")) {
                     specialiteList.setVisibility(View.VISIBLE);
                 } else {
                     specialiteList.setVisibility(View.GONE);

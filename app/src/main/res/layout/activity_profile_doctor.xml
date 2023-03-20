@@ -100,7 +100,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
-            android:text="Doctor tazi"
+            android:text="Vets"
             android:textColor="#000"
             android:textSize="24sp" />
 

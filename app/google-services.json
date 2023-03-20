@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "437398415130",
-    "project_id": "daktarlagbe-5daef",
-    "storage_bucket": "daktarlagbe-5daef.appspot.com"
+    "project_number": "316656841176",
+    "project_id": "health-care-app-4ee4d",
+    "storage_bucket": "health-care-app-4ee4d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:437398415130:android:c3112d4e0f9f3d7f5f6ea3",
+        "mobilesdk_app_id": "1:316656841176:android:f3c1969880510bd5edc2ad",
         "android_client_info": {
           "package_name": "com.mhutshow.daktarlagbe"
         }
       },
       "oauth_client": [
         {
-          "client_id": "437398415130-tukenf3dlh15kgb94b9qtctpoqtbvvab.apps.googleusercontent.com",
+          "client_id": "316656841176-8ffvrdioimhmi7i20muv79kh1olm3me6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAOtLiikTaemD5cjv98w33baoYpPRo5mkM"
+          "current_key": "AIzaSyBy6GLBU4FU2lYtC6_aXI5HnFFVL7qas_M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "437398415130-tukenf3dlh15kgb94b9qtctpoqtbvvab.apps.googleusercontent.com",
+              "client_id": "316656841176-8ffvrdioimhmi7i20muv79kh1olm3me6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -2,7 +2,7 @@
 <resources>
     <string-array name="planets_array">
         <item>Patient</item>
-        <item>Doctor</item>
+        <item>Vets</item>
     </string-array>
     <string-array name="planets_array2" >
         <item>Consultation</item>

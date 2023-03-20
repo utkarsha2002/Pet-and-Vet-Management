@@ -33,7 +33,7 @@ public class AppointementActivity extends AppCompatActivity {
 
 
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(140, 398);
-        layoutParams.setMargins(200, 0, 300, 0);
+        layoutParams.setMargins(130, 0, 130, 0);
 
         for (int i = 8; i<19;i++){
             final int j = i;

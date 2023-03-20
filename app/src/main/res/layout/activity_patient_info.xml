@@ -22,6 +22,7 @@
             android:textColor="#FFFFFF"
             android:textSize="30dp" />
     </LinearLayout>
+
     <EditText
         android:id="@+id/heightBtn"
         android:layout_width="wrap_content"
@@ -35,7 +36,8 @@
         app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.149"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Spinner
         android:id="@+id/bloodType"
@@ -51,7 +53,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/weightBtn"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintVertical_bias="0.237"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/weightBtn"
@@ -66,7 +69,8 @@
         app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/heightBtn"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.115"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView9"
@@ -105,7 +109,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bloodType"
-        app:layout_constraintVertical_bias="0.244" />
+        app:layout_constraintVertical_bias="0.244"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView7"

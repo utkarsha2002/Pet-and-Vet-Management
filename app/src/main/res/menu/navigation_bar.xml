@@ -21,31 +21,31 @@
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_general"
-                android:title="général"
+                android:title="Animal Welfare"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Dentiste"
-                android:title="Dentiste"
+                android:title="Dentistry"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_ORL"
-                android:title="ORL"
+                android:title="Dermatology"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Ophtalmologue"
-                android:title="Ophtalmologue"
+                android:title="Microbiology"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Pédiatre"
-                android:title="Pédiatre"
+                android:title="Poultry"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Radiologue"
-                android:title="Radiologue"
+                android:title="Ophthalmology"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Rhumatologue"
-                android:title="Rhumatologue"
+                android:title="Pathology"
                 app:showAsAction="ifRoom" />
 
         </menu>

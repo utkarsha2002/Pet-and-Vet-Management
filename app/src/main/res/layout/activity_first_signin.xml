@@ -4,26 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_header_selector"
+    android:background="@drawable/bg1"
     tools:context=".controller.FirstSigninActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A6000000" />
 
     <EditText
         android:id="@+id/firstSignFullName"
         android:layout_width="299dp"
         android:layout_height="46dp"
         android:layout_margin="20dp"
-        android:paddingLeft="20dp"
-        android:background="@drawable/rounded_edittext"
-        android:textColorHint="#9E9E9E"
-        android:textColor="#000000"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Full Name"
         android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintVertical_bias="0.129"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/firstSignBirthDay"
@@ -31,34 +39,41 @@
         android:layout_height="46dp"
         android:layout_margin="20dp"
         android:layout_marginTop="72dp"
-        android:background="@drawable/rounded_edittext"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/baseline_calendar_month_24"
+        android:drawablePadding="10dp"
         android:ems="10"
-        android:hint="Birthday"
+        android:hint="Date of Birth"
         android:inputType="textPersonName"
         android:paddingLeft="20dp"
-        android:textColor="#000000"
-        android:textColorHint="#9E9E9E"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstSignFullName" />
+        app:layout_constraintTop_toBottomOf="@+id/firstSignFullName"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/firstSignTel"
         android:layout_width="299dp"
         android:layout_height="46dp"
         android:layout_margin="20dp"
-        android:background="@drawable/rounded_edittext"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Tel"
+        android:maxLength="10"
         android:inputType="number"
         android:paddingLeft="20dp"
-        android:textColor="#000000"
-        android:textColorHint="#9E9E9E"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstSignBirthDay"
-        app:layout_constraintVertical_bias="0.014" />
+        app:layout_constraintVertical_bias="0.014"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -68,12 +83,13 @@
         android:background="#ffffff"
         android:paddingLeft="20dp"
         android:spinnerMode="dropdown"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstSignTel"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintVertical_bias="0.163"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Spinner
         android:id="@+id/specialite_spinner"
@@ -83,7 +99,7 @@
         android:background="#ffffff"
         android:paddingLeft="20dp"
         android:spinnerMode="dropdown"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,6 +114,7 @@
         android:layout_marginTop="24dp"
         android:textSize="24sp"
         android:text="Choose your role"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstSignTel" />
@@ -106,7 +123,7 @@
         android:id="@+id/confirmeBtn"
         android:layout_width="260dp"
         android:layout_height="46dp"
-        android:background="#22BE87"
+        android:background="@drawable/input_bg"
         android:text="CONFIRM"
         android:textColor="#ffffff"
         android:textSize="18sp"
@@ -115,6 +132,7 @@
         app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/specialite_spinner"
-        app:layout_constraintVertical_bias="0.349" />
+        app:layout_constraintVertical_bias="0.349"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

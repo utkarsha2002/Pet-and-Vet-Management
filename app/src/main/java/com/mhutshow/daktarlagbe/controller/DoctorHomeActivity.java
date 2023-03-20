@@ -78,8 +78,8 @@ public class DoctorHomeActivity extends AppCompatActivity implements DatePickerD
         appointementBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              // doc = FirebaseAuth.getInstance().getCurrentUser().getEmail().toString();
-                //showDatePickerDialog(v.getContext());
+              doc = FirebaseAuth.getInstance().getCurrentUser().getEmail().toString();
+                showDatePickerDialog(v.getContext());
                 Intent k = new Intent(DoctorHomeActivity.this, DoctorAppointementActivity.class);
                 startActivity(k);
             }

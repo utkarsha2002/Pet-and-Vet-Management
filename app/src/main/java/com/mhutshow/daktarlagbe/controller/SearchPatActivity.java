@@ -115,31 +115,31 @@ public class SearchPatActivity extends AppCompatActivity {
                 return true;
             case R.id.option_general:
                 DoctorAdapterFiltred.specialiteSearch = true;
-                adapter.getFilter().filter("Médecin général");
+                adapter.getFilter().filter("Animal Welfare");
                 return true;
             case R.id.option_Dentiste:
                 DoctorAdapterFiltred.specialiteSearch = true;
-                adapter.getFilter().filter("Dentiste");
+                adapter.getFilter().filter("Densistry");
                 return true;
             case R.id.option_Ophtalmologue:
                 DoctorAdapterFiltred.specialiteSearch = true;
-                adapter.getFilter().filter("Ophtalmologue");
+                adapter.getFilter().filter("Dermatogology");
                 return true;
             case R.id.option_ORL:
                 DoctorAdapterFiltred.specialiteSearch = true;
-                adapter.getFilter().filter("ORL");
+                adapter.getFilter().filter("Microbiology");
                 return true;
             case R.id.option_Pédiatre:
                 DoctorAdapterFiltred.specialiteSearch = true;
-                adapter.getFilter().filter("Pédiatre");
+                adapter.getFilter().filter("Poultry");
                 return true;
             case R.id.option_Radiologue:
                 DoctorAdapterFiltred.specialiteSearch = true;
-                adapter.getFilter().filter("Radiologue");
+                adapter.getFilter().filter("Ophthalmology");
                 return true;
             case R.id.option_Rhumatologue:
                 DoctorAdapterFiltred.specialiteSearch = true;
-                adapter.getFilter().filter("Rhumatologue");
+                adapter.getFilter().filter("Pathology");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

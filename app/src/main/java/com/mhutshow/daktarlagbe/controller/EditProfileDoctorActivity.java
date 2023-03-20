@@ -73,7 +73,7 @@ public class EditProfileDoctorActivity extends AppCompatActivity {
         doctorAddress = findViewById(R.id.addressText);
 
         pStorageRef = FirebaseStorage.getInstance().getReference("DoctorProfile");
-        pDatabaseRef = FirebaseDatabase.getInstance().getReference("DoctorProfile");
+        //pDatabaseRef = FirebaseDatabase.getInstance().getReference("DoctorProfile");
 
         //get the default doctor's informations from ProfileDoctorActivity
         Intent intent = getIntent(); //get the current intent

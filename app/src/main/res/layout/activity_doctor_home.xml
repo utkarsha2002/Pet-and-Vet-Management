@@ -52,7 +52,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnRequst"
@@ -176,10 +177,10 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="106dp"
-                android:layout_marginLeft="106dp"
+                android:layout_marginStart="116dp"
+                android:layout_marginLeft="116dp"
                 android:layout_marginBottom="79dp"
-                android:text="Welcome Doctor"
+                android:text="Welcome Vets"
                 android:textColor="#ffffff"
                 android:textSize="26sp" />
 
@@ -191,8 +192,8 @@
                 android:layout_alignParentBottom="true"
                 android:layout_marginStart="105dp"
                 android:layout_marginLeft="105dp"
-                android:layout_marginBottom="55dp"
-                android:text="How we can help you oday?"
+                android:layout_marginBottom="44dp"
+                android:text="How we can help you today?"
                 android:textColor="#ffffff"
                 android:textSize="16sp" />
 
