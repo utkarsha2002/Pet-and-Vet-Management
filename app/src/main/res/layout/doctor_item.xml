@@ -38,7 +38,7 @@
             android:maxLines="1"
             android:text="Title"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#22BE87" />
+            android:textColor="#673AB7" />
 
         <TextView
             android:id="@+id/text_view_description"
@@ -75,7 +75,8 @@
             android:layout_marginEnd="17dp"
             android:layout_marginRight="17dp"
             android:layout_marginBottom="22dp"
-            android:background="@drawable/button_green"
+            android:background="@drawable/input_style"
+            android:backgroundTint="@color/dark_purple"
             android:text="BOOK"
             android:textColor="#fff"
             tools:ignore="TouchTargetSizeCheck" />

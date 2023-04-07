@@ -22,7 +22,7 @@
             android:layout_marginStart="0dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="0dp"
-            android:background="@color/colorAccent"
+            android:background="@color/dark_purple"
             android:orientation="horizontal">
 
             <TextView
@@ -34,19 +34,21 @@
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:text="Consultation"
-                android:textColor="#fff" />
+                android:textColor="#fff"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/appointement_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
                 android:layout_weight="1"
                 android:text="23/06/20 at 9pm"
-                android:textColor="#fff" />
+                android:textColor="#fff"
+                android:textSize="16sp" />
         </LinearLayout>
 
         <Button
@@ -94,8 +96,8 @@
             android:layout_marginTop="18dp"
             android:layout_marginBottom="82dp"
             android:text="Patient name"
-            android:textColor="#000"
-            android:textSize="14sp" />
+            android:textColor="#673AB7"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/patient_phone"
@@ -110,7 +112,7 @@
             android:layout_marginBottom="56dp"
             android:text="0652167895"
             android:textColor="#B9B9B9"
-            android:textSize="12sp" />
+            android:textSize="16sp" />
 
         <ImageView
             android:id="@+id/patient_image"

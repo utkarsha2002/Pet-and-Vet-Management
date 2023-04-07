@@ -3,6 +3,21 @@
     <string name="main_activity_description">
 Just chat with your mentors</string>
 
+    //Headings
+    <string name="heading_one">We will take care of you PETS</string>
+    <string name="heading_two">Lets find clinic for your pet</string>
+    <string name="heading_three">Take care of your pets health</string>
+    <string name="heading_fourth">Find the best vet for your pet</string>
+
+    //Description
+    <string name="desc_one">Grow your Business By Accepting Card Payments with The New Card Reader</string>
+    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="share">Share</string>
+    <string name="exit">Exit</string>
+    <string name="setting">Setting</string>
+
     <string name="login">Connexion</string>
     <string name="chat_with_mentor">
 Chat with a mentor</string>

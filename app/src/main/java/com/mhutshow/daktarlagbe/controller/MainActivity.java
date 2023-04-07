@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText emailText;
     private EditText passwordText;
     private Button loginBtn;
-    private Button creatBtn;
+    private Button createBtn;
     private EditText secondPass;
-    private EditText confirme;
+    private EditText confirm;
     SignInButton signInButton;
     FirebaseFirestore  db = FirebaseFirestore.getInstance();
     private CollectionReference UsersRef = db.collection("User");
@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        confirme = (EditText)findViewById(R.id.editText3);
-        confirme.setVisibility(View.INVISIBLE);
+        confirm = (EditText)findViewById(R.id.editText3);
+        confirm.setVisibility(View.INVISIBLE);
         signInButton = findViewById(R.id.sign_in_button);
 
         TextView textView = (TextView) signInButton.getChildAt(0);
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         secondPass= (EditText) findViewById(R.id.editText3);
         signUpBtn =(Button)findViewById(R.id.SignUpBtn);
         loginBtn = (Button)findViewById(R.id.LoginBtn);
-        creatBtn = findViewById(R.id.CreateAccount);
+        createBtn = findViewById(R.id.CreateAccount);
         signUpBtn.setVisibility(View.GONE);
         signUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,10 +104,10 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
             }else{
-                    Toast.makeText(MainActivity.this, "vous devez rensegner toutes les champs",
+                    Toast.makeText(MainActivity.this, "You must fill in all the details",
                             Toast.LENGTH_SHORT).show();
                     if(!password.equals(confirmPass)){
-                        Toast.makeText(MainActivity.this, "Confirm pass don't match password",
+                        Toast.makeText(MainActivity.this, "Password doesn't match!",
                                 Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -141,33 +141,35 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
             }else{
-                    Toast.makeText(MainActivity.this, "vous devez rensegnier toutes les champs",
+                    Toast.makeText(MainActivity.this, "You must fill in all the details",
                             Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
-        creatBtn.setOnClickListener(new View.OnClickListener() {
+        createBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 emailText.setText("");
                 passwordText.setText("");
-                if (creatBtn.getText().toString().equals("Create Account")){
-                    confirme.setVisibility(View.VISIBLE);
+                if (createBtn.getText().toString().equals("Create Account")){
+                    confirm.setVisibility(View.VISIBLE);
                     signUpBtn.setVisibility(View.VISIBLE);
                     loginBtn.setVisibility(View.INVISIBLE);
-                    creatBtn.setText("Back to login");
+                    createBtn.setText("Back to login");
                     signInButton.setVisibility(View.GONE);
                 }
                 else{
-                    confirme.setVisibility(View.INVISIBLE);
+                    confirm.setVisibility(View.INVISIBLE);
                     signUpBtn.setVisibility(View.INVISIBLE);
                     loginBtn.setVisibility(View.VISIBLE);
-                    creatBtn.setText("Create Account");
+                    createBtn.setText("Create Account");
                     signInButton.setVisibility(View.VISIBLE);
                 }
             }
         });
+
+
 
         findViewById(R.id.sign_in_button).setOnClickListener(new View.OnClickListener() {
             @Override

@@ -3,30 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/paw_bg"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".controller.EditProfilePatientActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#85000000" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#22BE87"
+        android:background="#FFC107"
         android:minHeight="?attr/actionBarSize"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="#fff"
+        app:titleTextColor="#000000"
         app:contentInsetLeft="0dp"
         app:contentInsetStart="0dp">
+
         <TextView
             android:id="@+id/toolbar_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Edit My Profile"
-            android:textColor="@android:color/white"
-            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_gravity="center"
-            />
+            android:fontFamily="sans-serif-medium"
+            android:text="Edit My Profile"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="14dp" />
     </androidx.appcompat.widget.Toolbar>
 
 
@@ -41,9 +51,9 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:hint="Enter your name"
-        android:textColorHint="#22BE87"
+        android:textColorHint="#FFC107"
         app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#22BE87"
+        app:boxStrokeColor="#FFC107"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -54,7 +64,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/nameText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
             tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,9 +80,9 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:hint="Enter your phone"
-        android:textColorHint="#22BE87"
+        android:textColorHint="#FFC107"
         app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#22BE87"
+        app:boxStrokeColor="#FFC107"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -82,8 +94,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/phoneText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
             tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -92,24 +106,25 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:hint="Enter your address"
-        android:textColorHint="#22BE87"
+        android:textColorHint="#FFC107"
         app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#22BE87"
+        app:boxStrokeColor="#FFC107"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phone"
-        app:layout_constraintVertical_bias="0.224">
+        app:layout_constraintVertical_bias="0.224"
+        app:passwordToggleTint="#FFFFFF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/addressText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
             tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -132,10 +147,11 @@
         android:layout_width="258dp"
         android:layout_height="47dp"
         android:layout_marginStart="42dp"
-        android:layout_marginLeft="42dp"
         android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
+        android:background="@drawable/input_style"
+        android:backgroundTint="#673AB7"
         android:text="UPDATE PROFILE"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -146,8 +162,8 @@
 
     <ImageButton
         android:id="@+id/select_image"
-        android:layout_width="35dp"
-        android:layout_height="30dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginTop="20dp"
         app:layout_constraintBottom_toTopOf="@+id/name"
         app:layout_constraintEnd_toEndOf="parent"

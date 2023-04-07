@@ -55,7 +55,6 @@ public class ProfileDoctorActivity extends AppCompatActivity {
         doctorPhone = findViewById(R.id.doctor_phone);
         doctorEmail = findViewById(R.id.doctor_email);
         doctorAddress = findViewById(R.id.doctor_address);
-        doctorAbout = findViewById(R.id.doctor_about);
         AlertDialog dialog = new SpotsDialog.Builder().setContext(this).setCancelable(true).build();
         dialog.show();
 

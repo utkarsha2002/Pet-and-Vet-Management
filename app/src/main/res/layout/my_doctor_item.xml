@@ -38,7 +38,7 @@
             android:maxLines="1"
             android:text="Title"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#22BE87" />
+            android:textColor="#673AB7" />
 
         <TextView
             android:id="@+id/text_view_description"
@@ -55,27 +55,29 @@
 
         <Button
             android:id="@+id/voir_fiche_btn"
-            android:layout_width="33dp"
-            android:layout_height="34dp"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="305dp"
-            android:layout_marginLeft="305dp"
-            android:layout_marginTop="21dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="321dp"
+            android:layout_marginLeft="321dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="27dp"
             android:background="@drawable/ic_chat_black_24dp"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/callBtn"
-            android:layout_width="29dp"
-            android:layout_height="29dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="251dp"
-            android:layout_marginLeft="251dp"
-            android:layout_marginBottom="27dp"
+            android:layout_marginStart="252dp"
+            android:layout_marginLeft="252dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/ic_call_black_24dp"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 

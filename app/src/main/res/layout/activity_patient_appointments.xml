@@ -4,8 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F4F3F3"
+    android:background="@drawable/paw_bg"
     tools:context=".controller.PatientAppointementsActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/patient_appointements"

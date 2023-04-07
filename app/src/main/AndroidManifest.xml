@@ -8,13 +8,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/pets_logo"
+        android:label="Pet and Vet Management"
+        android:roundIcon="@mipmap/pets_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".Get_Started"
+            android:exported="false" />
+        <activity
             android:name=".controller.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Onboard"
             android:exported="false" />
         <activity android:name=".controller.MyCalendarDoctorActivity" />
         <activity android:name=".controller.TestActivity" />

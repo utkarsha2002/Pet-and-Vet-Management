@@ -6,8 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="#EDD9CF"
-    tools:context=".controller.ConsultationFragmentPage">
+    android:background="@drawable/petbg"
+    tools:context=".controller.ConsultationFragmentPage"
+    android:orientation="horizontal">
+
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/conslutationRecycleView"

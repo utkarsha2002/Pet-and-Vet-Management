@@ -39,7 +39,7 @@
             android:maxLines="1"
             android:text="Name"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#22BE87" />
+            android:textColor="#673AB7" />
 
         <TextView
             android:id="@+id/text_view_telephone"
@@ -57,27 +57,29 @@
 
         <Button
             android:id="@+id/contact"
-            android:layout_width="28dp"
-            android:layout_height="25dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="299dp"
-            android:layout_marginLeft="299dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginStart="316dp"
+            android:layout_marginLeft="316dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="17dp"
             android:background="@drawable/ic_chat_black_24dp"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/callBtn"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="229dp"
-            android:layout_marginLeft="229dp"
-            android:layout_marginBottom="23dp"
+            android:layout_marginStart="247dp"
+            android:layout_marginLeft="247dp"
+            android:layout_marginBottom="21dp"
             android:background="@drawable/ic_call_black_24dp"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </RelativeLayout>

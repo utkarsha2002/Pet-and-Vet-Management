@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/bg1"
     tools:context=".controller.FicheActivity">
 
     <EditText
@@ -16,6 +15,7 @@
         android:inputType="text"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:textStyle="bold"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -26,6 +26,7 @@
         android:inputType="textMultiLine"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:textStyle="bold"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -36,16 +37,18 @@
         android:inputType="textMultiLine"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:textStyle="bold"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="Type de fiche"
         android:layout_marginTop="16dp"
-        android:textSize="16sp"/>
+        android:text="Register Pet For :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/fiche_type_spinner"
@@ -58,16 +61,20 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_weight="1"
         android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/animals"
         android:gravity="center|bottom">
-    <Button
-        android:id="@+id/button_add_fiche"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/input_bg"
-        android:textColor="@color/white"
-        android:text="Ajouter" />
+
+        <Button
+            android:id="@+id/button_add_fiche"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_style"
+            android:backgroundTint="#673AB7"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
     </LinearLayout>
 
 

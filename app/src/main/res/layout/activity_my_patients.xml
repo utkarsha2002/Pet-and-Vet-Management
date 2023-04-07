@@ -4,8 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E5E5E5"
+    android:background="@drawable/paw_bg"
     tools:context=".controller.MyPatientsActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000" />
+
 
     <LinearLayout
         android:id="@+id/activity_mentor_chat_recycler_view_container"
@@ -16,7 +22,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="#22BEA9">
+            android:background="#402D61">
 
             <TextView
                 android:layout_width="match_parent"

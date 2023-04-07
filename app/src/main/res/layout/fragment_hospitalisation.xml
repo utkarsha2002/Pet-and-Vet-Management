@@ -6,13 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="#EDD9CF"
-    tools:context=".controller.Hospitalisation">
+    android:background="@drawable/petbg"
+    tools:context=".controller.Hospitalisation"
+    android:orientation="horizontal">
+
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/hospitalisationRecycleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 
 </LinearLayout>
 

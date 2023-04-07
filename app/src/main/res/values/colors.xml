@@ -22,5 +22,7 @@
     <color name="grey">#4E4C4C</color>
     <color name="inactive">#CFC0EA</color>
     <color name="active">#846AB3</color>
+    <color name="dark_purple">#402D61</color>
+
 
 </resources>
