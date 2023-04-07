@@ -84,9 +84,9 @@
                 android:layout_marginLeft="164dp"
                 android:layout_marginTop="19dp"
                 android:maxLines="1"
-                android:text="Doctor"
-                android:textColor="#b8b8b8"
-                android:textSize="12sp" />
+                android:text="Vet:-"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/doctor_view_title"
@@ -159,9 +159,10 @@
                 android:layout_marginRight="33dp"
                 android:layout_marginBottom="14dp"
                 android:background="@drawable/button_radius_primary_color"
-                android:text="Voir fiche"
+                android:text="View Report"
 
-                android:textSize="10sp" />
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </RelativeLayout>
 
