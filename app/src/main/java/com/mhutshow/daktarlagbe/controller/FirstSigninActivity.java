@@ -2,6 +2,7 @@ package com.mhutshow.daktarlagbe.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.SpinnerAdapter;
 
 import com.mhutshow.daktarlagbe.R;
 import com.mhutshow.daktarlagbe.model.fireStoreApi.DoctorHelper;
@@ -51,6 +53,8 @@ public class FirstSigninActivity extends AppCompatActivity {
         specialiteList.setAdapter(adapterSpecialiteList);
         String newAccountType = spinner.getSelectedItem().toString();
 
+
+
         spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -60,14 +64,20 @@ public class FirstSigninActivity extends AppCompatActivity {
                     specialiteList.setVisibility(View.VISIBLE);
                 } else {
                     specialiteList.setVisibility(View.GONE);
+                }if (selected.equals("Patient")) {
+                    }
                 }
-            }
+
+
+
+
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
                 specialiteList.setVisibility(View.GONE);
             }
         });
+
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

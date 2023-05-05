@@ -4,16 +4,16 @@
 Just chat with your mentors</string>
 
     //Headings
-    <string name="heading_one">We will take care of you PETS</string>
-    <string name="heading_two">Lets find clinic for your pet</string>
-    <string name="heading_three">Take care of your pets health</string>
-    <string name="heading_fourth">Find the best vet for your pet</string>
+    <string name="heading_one">24/7 Care for your PETS</string>
+    <string name="heading_two">Pay less, Take more</string>
+    <string name="heading_three">They are in good hands</string>
+    <string name="heading_fourth">Pawsitively the best care for your furry friend!</string>
 
     //Description
-    <string name="desc_one">Grow your Business By Accepting Card Payments with The New Card Reader</string>
-    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
-    <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
-    <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_one">It offers a 24×7 appointment request tool allowing the pet care providers to reach the right help as needed</string>
+    <string name="desc_two">Not only just add to pet healthcare, but this application can even be profitable for the pet owners</string>
+    <string name="desc_three">Veterinary based engagement platform and this mobile app has everything you need to communicate and streamline your clinical practice</string>
+    <string name="desc_fourth"></string>
     <string name="share">Share</string>
     <string name="exit">Exit</string>
     <string name="setting">Setting</string>
@@ -85,6 +85,7 @@ Chat with a mentor</string>
         <item>Ophthalmology</item>
         <item>Pathology</item>
     </string-array>
+
 
     <string-array name="blood_spinner">
         <item>A+</item>

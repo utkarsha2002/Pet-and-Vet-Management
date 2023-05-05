@@ -31,7 +31,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.squareup.picasso.Picasso;
 
-public class DossierMedical extends AppCompatActivity {
+public class MedicalCase extends AppCompatActivity {
     private final static String TAG = "DossierMedical";
     private FloatingActionButton createNewFicheButton;
     private String patient_email;
@@ -164,7 +164,7 @@ public class DossierMedical extends AppCompatActivity {
     }
 
     private void openPatientFiche(){
-        Intent intent = new Intent(this, FicheActivity.class);
+        Intent intent = new Intent(this, FormActivity.class);
         String patient_name = getIntent().getStringExtra("patient_name");
         String patient_email = getIntent().getStringExtra("patient_email");
         intent.putExtra("patient_email", patient_email);

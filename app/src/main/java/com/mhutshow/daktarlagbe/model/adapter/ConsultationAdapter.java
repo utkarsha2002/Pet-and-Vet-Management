@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.mhutshow.daktarlagbe.controller.FicheInfo;
+import com.mhutshow.daktarlagbe.controller.FormInfo;
 import com.mhutshow.daktarlagbe.R;
 import com.mhutshow.daktarlagbe.model.Fiche;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
@@ -54,7 +54,7 @@ public class ConsultationAdapter  extends FirestoreRecyclerAdapter<Fiche,Consult
     }
 
     private void openPage(Context wf,Fiche m){
-        Intent i = new Intent(wf, FicheInfo.class);
+        Intent i = new Intent(wf, FormInfo.class);
         i.putExtra("dateCreated", m.getDateCreated().toString());
         i.putExtra("doctor",m.getDoctor());
         i.putExtra("description",m.getDescription());

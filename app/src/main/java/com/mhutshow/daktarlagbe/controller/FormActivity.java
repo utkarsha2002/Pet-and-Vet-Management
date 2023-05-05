@@ -18,7 +18,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class FicheActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class FormActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private EditText maladie;
     private EditText description;
@@ -28,7 +28,7 @@ public class FicheActivity extends AppCompatActivity implements AdapterView.OnIt
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fiche);
+        setContentView(R.layout.activity_form);
 
         maladie = findViewById(R.id.fiche_maladie);
         description = findViewById(R.id.fiche_description);
@@ -77,7 +77,7 @@ public class FicheActivity extends AppCompatActivity implements AdapterView.OnIt
                 .collection("MyMedicalFolder");
         ficheRef.document().set(new Fiche(maladieFiche, descriptionFiche, traitemenfiche, typeFiche, FirebaseAuth.getInstance().getCurrentUser().getEmail().toString()));
         //ficheRef.add(new Fiche(maladieFiche, descriptionFiche, traitemenfiche, typeFiche, FirebaseAuth.getInstance().getCurrentUser().getEmail().toString()));
-        Toast.makeText(this, "Fiche added."+patient_name, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Form added."+patient_name, Toast.LENGTH_LONG).show();
         finish();
     }
 

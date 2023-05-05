@@ -203,7 +203,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
-        android:text="WELCOME USER"
+        android:text="WELCOME PET OWNERS"
         android:textColor="#FFFFFF"
         android:textSize="26sp"
         android:textStyle="bold"

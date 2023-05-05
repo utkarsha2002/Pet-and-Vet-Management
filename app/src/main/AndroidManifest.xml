@@ -9,7 +9,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/pets_logo"
-        android:label="Pet and Vet Management"
+        android:label="Pawfect Care"
         android:roundIcon="@mipmap/pets_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -25,9 +25,9 @@
         <activity android:name=".controller.MyCalendarDoctorActivity" />
         <activity android:name=".controller.TestActivity" />
         <activity android:name=".controller.AppointementActivity" />
-        <activity android:name=".controller.FicheInfo" />
+        <activity android:name=".controller.FormInfo" />
         <activity android:name=".controller.PatientInfoActivity" />
-        <activity android:name=".controller.DossierMedical" />
+        <activity android:name=".controller.MedicalCase" />
         <activity android:name=".controller.ChatActivity" />
         <activity android:name=".controller.PatientRequestPage" />
         <activity android:name=".controller.DoctorHomeActivity" />
@@ -39,7 +39,7 @@
         <activity android:name=".controller.ProfileDoctorActivity" />
         <activity android:name=".controller.EditProfilePatientActivity" />
         <activity android:name=".controller.DoctorAppointementActivity" />
-        <activity android:name=".controller.FicheActivity" />
+        <activity android:name=".controller.FormActivity" />
         <activity android:name=".controller.MyPatientsActivity" />
         <activity android:name=".controller.SearchPatActivity" />
         <activity android:name=".controller.FirstSigninActivity" />

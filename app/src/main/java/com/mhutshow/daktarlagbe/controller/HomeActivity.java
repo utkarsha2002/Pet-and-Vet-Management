@@ -64,7 +64,7 @@ public class HomeActivity extends AppCompatActivity {
         BtnRequst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), DossierMedical.class);
+                Intent intent = new Intent(getApplicationContext(), MedicalCase.class);
                 intent.putExtra("patient_email",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
                 startActivity(intent);
             }

@@ -6,7 +6,7 @@
     android:background="@drawable/paw_bg"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    tools:context=".controller.DossierMedical">
+    tools:context=".controller.MedicalCase">
 
 
     <RelativeLayout
